@@ -38,9 +38,25 @@ section#login {
     transform: translate(-50%, -50%);
 }
 
+div#alert {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: none;
+    background-color: rgba(255, 255, 255, 0);
+    width: 270px;
+    height: 530px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
+    transform: translate(-50%, -50%);
+}
+
 section#login > div#imagem {
     display: block;
-    background: #223240 url(../imagens/funpre.jpg) no-repeat;
+    background: #223240 url(../imgs/funpre.jpg) no-repeat;
     background-size: cover;
     background-position: center bottom;
     height: 200px;

@@ -10,6 +10,10 @@
         width: 80vw;
     }
 
+    div#alert {
+        width: 80vw;
+    }
+
     section#login > div#imagem {
         float: left;
         width: 30%;
@@ -36,6 +40,10 @@
     }
 
     section#login {
+        width: 950px;
+    }
+
+    div#alert {
         width: 950px;
     }
 
