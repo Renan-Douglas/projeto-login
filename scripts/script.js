@@ -2,7 +2,7 @@ function entrar () {
 
   let aemail = document.querySelector('#ilogin').value
   let asenha = document.querySelector('#isenha').value
-  console.log(`${aemail} e ${asenha}`)
+  console.log(`E-mail:${aemail}   Senha:${asenha}`)
 
   let aalert = document.querySelector('#alert')
   
